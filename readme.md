@@ -1,3 +1,6 @@
+
+******* Create model for content
+
 php artisan make:model Article -m
 
 
@@ -13,6 +16,7 @@ CREATE TABLE articles(
 )
 
 
+******* Create users table with api token
 
 CREATE TABLE users(
  id int not null PRIMARY KEY AUTO_INCREMENT,
@@ -34,7 +38,7 @@ php artisan make:controller ArticleController
 _________________________________
 
 
-
+******* Createcontent controller
 
 use App\Article;
  
